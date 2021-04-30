@@ -1,4 +1,4 @@
-### Deploying to AWS
+### Upload a zipped package to S3
 
 first thing's first, ensure that your script is executable
 

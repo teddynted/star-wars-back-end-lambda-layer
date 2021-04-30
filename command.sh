@@ -9,4 +9,4 @@ aws s3 rm s3://nextjs-portfolio/star-wars-api-layer.zip
 echo "Uploading to s3 ..."
 aws s3 cp star-wars-api-layer.zip s3://nextjs-portfolio/
 echo "Creating a layer ..."
-aws lambda publish-layer-version --layer-name "star-wars-api-layer-dependencies-layer" --description "Batch one of nodejs dependencies" --content "file://s3.json" --license-info "MIT" --compatible-runtimes "nodejs12.x"
+aws lambda publish-layer-version --layer-name "star-wars-api-layer-dependencies-layer" --description "Star Wars API Layer Dependencies" --content "file://s3.json" --license-info "MIT" --compatible-runtimes "nodejs12.x"

@@ -19,5 +19,8 @@
         "webpack-node-externals": "^3.0.0"
     },
     "author": "Teddy Kekana",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "serverless-plugin-warmup": "^5.2.3"
+    }
 }
